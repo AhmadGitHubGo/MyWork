@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello-world:
-    runs-on: [slef-hosted, Linux, X64]
+    runs-on: slef-hosted
     steps:
       - uses: actions/checkout@v3
       
