@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello-world:
-    runs-on: 192.168.28.128
+    runs-on: [slef-hosted, Linux, X64]
     steps:
       - uses: actions/checkout@v3
       
