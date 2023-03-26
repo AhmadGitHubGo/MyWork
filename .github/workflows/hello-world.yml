@@ -1,9 +1,10 @@
 name: Hello world
 
 on: [push]
+    branches: ["main"]
 
 jobs:
-  hello-world:
+  run-list:
     runs-on: 'self-hosted', 'Linux', 'X64'
     steps:
       - name: Hello world
