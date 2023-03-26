@@ -13,4 +13,5 @@ jobs:
       - name: Hello world
         shell: bash
         run: |
-          echo "Hello Ahmad and Maryam"
+          echo "Hey Do this"
+          cp ./MyWork/test.sh /tmp/test.sh
