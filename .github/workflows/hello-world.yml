@@ -6,8 +6,11 @@ on:
 
 jobs:
   hello-world:
-    runs-on: 'self-hosted', 'Linux', 'X64'
+    runs-on: [self-hosted, Linux, X64]
     steps:
+      - uses: actions/checkout@v3
+      
       - name: Hello world
+        shell: bash
         run: |
-          echo "Hello World"
+          echo "Hello Ahmad and Maryam"
